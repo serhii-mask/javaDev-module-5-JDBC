@@ -1,4 +1,4 @@
-package org.example.batchUpdate.entities;
+package org.example.entities;
 
 import java.time.LocalDate;
 
