@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.company.DatabaseInitService;
 import org.example.company.DatabasePopulateService;
+import org.example.batchUpdate.DatabaseBatchUpdatePopulateService;
 import org.example.company.DatabaseQueryService;
 import org.example.database.Database;
 
@@ -9,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
         DatabaseInitService.main(args);
         DatabasePopulateService.main(args);
+        DatabaseBatchUpdatePopulateService.main(args);
 
         Database database = Database.getInstance();
         DatabaseQueryService queryService = new DatabaseQueryService(database);
