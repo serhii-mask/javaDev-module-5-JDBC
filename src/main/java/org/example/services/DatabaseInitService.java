@@ -1,4 +1,4 @@
-package org.example.company;
+package org.example.services;
 
 import org.example.database.Database;
 

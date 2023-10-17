@@ -1,9 +1,13 @@
-package org.example.company;
+package org.example.services;
 
 import org.example.database.Database;
 import org.example.entities.Client;
 import org.example.entities.Project;
 import org.example.entities.Worker;
+import org.example.repository.ClientRepository;
+import org.example.repository.ProjectRepository;
+import org.example.repository.ProjectWorkerRepository;
+import org.example.repository.WorkerRepository;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -69,33 +73,33 @@ public class DatabasePopulateService {
             projectRepository.saveProject(project);
         }
 
-        projectWorkerRepository.saveProjectWorker(1,1);
-        projectWorkerRepository.saveProjectWorker(1,3);
-        projectWorkerRepository.saveProjectWorker(1,5);
-        projectWorkerRepository.saveProjectWorker(1,10);
-        projectWorkerRepository.saveProjectWorker(2,3);
-        projectWorkerRepository.saveProjectWorker(2,6);
-        projectWorkerRepository.saveProjectWorker(2,12);
-        projectWorkerRepository.saveProjectWorker(3,7);
-        projectWorkerRepository.saveProjectWorker(3,11);
-        projectWorkerRepository.saveProjectWorker(4,2);
-        projectWorkerRepository.saveProjectWorker(4,4);
-        projectWorkerRepository.saveProjectWorker(4,11);
-        projectWorkerRepository.saveProjectWorker(5,10);
-        projectWorkerRepository.saveProjectWorker(6,4);
-        projectWorkerRepository.saveProjectWorker(6,9);
-        projectWorkerRepository.saveProjectWorker(7,1);
-        projectWorkerRepository.saveProjectWorker(7,2);
-        projectWorkerRepository.saveProjectWorker(7,8);
-        projectWorkerRepository.saveProjectWorker(8,3);
-        projectWorkerRepository.saveProjectWorker(8,1);
-        projectWorkerRepository.saveProjectWorker(8,7);
-        projectWorkerRepository.saveProjectWorker(8,10);
-        projectWorkerRepository.saveProjectWorker(9,4);
-        projectWorkerRepository.saveProjectWorker(9,9);
-        projectWorkerRepository.saveProjectWorker(10,2);
-        projectWorkerRepository.saveProjectWorker(10,5);
-        projectWorkerRepository.saveProjectWorker(10,8);
-        projectWorkerRepository.saveProjectWorker(11,12);
+        projectWorkerRepository.saveProjectWorker(1, 1);
+        projectWorkerRepository.saveProjectWorker(1, 3);
+        projectWorkerRepository.saveProjectWorker(1, 5);
+        projectWorkerRepository.saveProjectWorker(1, 10);
+        projectWorkerRepository.saveProjectWorker(2, 3);
+        projectWorkerRepository.saveProjectWorker(2, 6);
+        projectWorkerRepository.saveProjectWorker(2, 12);
+        projectWorkerRepository.saveProjectWorker(3, 7);
+        projectWorkerRepository.saveProjectWorker(3, 11);
+        projectWorkerRepository.saveProjectWorker(4, 2);
+        projectWorkerRepository.saveProjectWorker(4, 4);
+        projectWorkerRepository.saveProjectWorker(4, 11);
+        projectWorkerRepository.saveProjectWorker(5, 10);
+        projectWorkerRepository.saveProjectWorker(6, 4);
+        projectWorkerRepository.saveProjectWorker(6, 9);
+        projectWorkerRepository.saveProjectWorker(7, 1);
+        projectWorkerRepository.saveProjectWorker(7, 2);
+        projectWorkerRepository.saveProjectWorker(7, 8);
+        projectWorkerRepository.saveProjectWorker(8, 3);
+        projectWorkerRepository.saveProjectWorker(8, 1);
+        projectWorkerRepository.saveProjectWorker(8, 7);
+        projectWorkerRepository.saveProjectWorker(8, 10);
+        projectWorkerRepository.saveProjectWorker(9, 4);
+        projectWorkerRepository.saveProjectWorker(9, 9);
+        projectWorkerRepository.saveProjectWorker(10, 2);
+        projectWorkerRepository.saveProjectWorker(10, 5);
+        projectWorkerRepository.saveProjectWorker(10, 8);
+        projectWorkerRepository.saveProjectWorker(11, 12);
     }
 }

@@ -1,8 +1,7 @@
-package org.example.company;
+package org.example.services;
 
 import org.example.database.Database;
 import org.example.entities.*;
-import org.h2.expression.condition.SimplePredicate;
 
 import java.sql.*;
 import java.util.ArrayList;

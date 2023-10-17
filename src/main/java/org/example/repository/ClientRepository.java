@@ -1,4 +1,4 @@
-package org.example.company;
+package org.example.repository;
 
 import org.example.entities.Client;
 

@@ -1,8 +1,8 @@
 package org.example;
 
-import org.example.company.DatabaseInitService;
-import org.example.company.DatabasePopulateService;
-import org.example.company.DatabaseQueryService;
+import org.example.services.DatabaseInitService;
+import org.example.services.DatabasePopulateService;
+import org.example.services.DatabaseQueryService;
 import org.example.database.Database;
 
 import java.sql.SQLException;
